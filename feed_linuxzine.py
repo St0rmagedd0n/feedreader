@@ -51,8 +51,6 @@ for i in range(len(siti)):
                     pubblicato = time.strftime("%Y/%m/%d-08:00")
                 title = rss['entries'][j]['title']
                 summary = rss['entries'][j]['summary']
-                if (feed_title == "Punto Informatico"):# or feed_title == "Announcements - Manjaro Linux Forum"): #Alcuni fee$
-                    summary = str(summary[summary.find("</p>")+5:len(summary)]) #Quindi tolgo il primo paragrafo (e il ritorn$
                 link = rss['entries'][j]['link']
                 data.append ({'feed' : feed_title, 'published': pubblicato,
 				            'title': title, 'summary': summary, 'link': link })
