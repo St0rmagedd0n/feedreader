@@ -1,8 +1,8 @@
-# feedreader
+# Feedreader
 
-Lo script che crea il feed di linuxzine.it
+Lo script che crea il feed di [Linuxzine.it](https://www.linuxzine.it)
 
-Questo script è la base per creare la seguente pagina: https://www.linuxzine.it/feed
+Questo script è la base per creare la seguente pagina: [https://www.linuxzine.it/feed](https://www.linuxzine.it/feed)
 
 Gli script sono due:
 
